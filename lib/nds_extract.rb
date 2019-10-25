@@ -66,4 +66,6 @@ end
 #puts directors_totals(directors_database) #=> HASH of directors => total Earnings
 #puts list_of_directors(directors_database) = array of directors names
 #puts directors_totals(directors_database)["Stephen Spielberg"]
-total_gross(directors_database)
+puts directors_totals(directors_database)[list_of_directors(directors_database)][i]
+
+#total_gross(directors_database)
