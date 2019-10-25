@@ -61,5 +61,6 @@ end
 
 #puts list_of_directors(directors_database)[0] #=> Stephen Spielberg
 #puts list_of_directors(directors_database)[0][directors_totals(directors_database)] #BROKEN
-puts directors_totals(directors_database)
-puts list_of_directors(directors_database)
+#puts directors_totals(directors_database) #=> HASH of directors => total Earnings
+#puts list_of_directors(directors_database) = array of directors names
+puts list_of_directors(directors_database)[0]
