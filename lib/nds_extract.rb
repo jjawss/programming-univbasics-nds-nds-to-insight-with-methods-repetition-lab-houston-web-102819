@@ -46,6 +46,16 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+  
+  directors_totals[source]
+  #returns a hash of director and gross pairs
+  
+  list_of_directors[source]
+  #returns an array of director names
+  i = 0
+  while i < list_of_directors[source]
+    directors_totals[source][list_of_directors][source][i]
+    i += 1
+  total += 
+  
 end
-
-list_of_directors(directors_database)
