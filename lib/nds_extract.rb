@@ -32,7 +32,6 @@ def list_of_directors(source)
     directors.push(source[i][:name])
     i += 1
   end
-  puts directors
   return directors
 end
 
