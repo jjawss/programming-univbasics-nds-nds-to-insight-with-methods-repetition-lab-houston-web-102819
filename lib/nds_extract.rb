@@ -61,4 +61,5 @@ end
 
 #puts list_of_directors(directors_database)[0] #=> Stephen Spielberg
 #puts list_of_directors(directors_database)[0][directors_totals(directors_database)] #BROKEN
-puts [:Stephen][directors_totals(directors_database)]
+puts directors_totals(directors_database)
+puts list_of_directors(directors_database)
