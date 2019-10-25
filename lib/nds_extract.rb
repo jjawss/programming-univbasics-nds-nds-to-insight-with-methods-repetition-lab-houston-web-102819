@@ -41,4 +41,4 @@ def total_gross(source)
   # return the total
 end
 
-puts directors_database[0][:name]
+puts directors_database[1][:name]
