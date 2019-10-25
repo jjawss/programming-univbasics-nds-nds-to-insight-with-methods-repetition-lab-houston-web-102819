@@ -54,8 +54,10 @@ def total_gross(source)
   #returns an array of director names
   i = 0
   while i < list_of_directors[source]
-    directors_totals[source][list_of_directors][source][i]
+    total += [list_of_directors](source)[i]directors_totals(source)
     i += 1
-  total += 
   
 end
+
+
+puts list_of_directors(source)[0]
