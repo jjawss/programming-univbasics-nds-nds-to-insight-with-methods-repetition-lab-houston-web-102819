@@ -55,8 +55,9 @@ def total_gross(source)
   #while i < list_of_directors[source]
     #total += [list_of_directors](source)[i]directors_totals(source)
     #i += 1
-  
+  end
 end
 
 
-puts list_of_directors(directors_database)[0]
+#puts list_of_directors(directors_database)[0] #=> Stephen Spielberg
+puts list_of_directors(directors_database)[0][directors_totals(directors_database)]
