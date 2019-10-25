@@ -46,16 +46,18 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  directors_totals[source]
+  #directors_totals[source]
   #returns a hash of director and gross pairs
   
-  list_of_directors[source]
+  #list_of_directors[source]
   #returns an array of director names
   i = 0
   while i < list_of_directors[source]
-    total += [list_of_directors](source)[i]directors_totals(source)
+    total += directors_totals(source)[list_of_directors(source)][i]
     i += 1
   end
+  puts total
+  return total
 end
 
 
@@ -63,4 +65,5 @@ end
 #puts list_of_directors(directors_database)[0][directors_totals(directors_database)] #BROKEN
 #puts directors_totals(directors_database) #=> HASH of directors => total Earnings
 #puts list_of_directors(directors_database) = array of directors names
-puts directors_totals(directors_database)["Stephen Spielberg"]
+#puts directors_totals(directors_database)["Stephen Spielberg"]
+total_gross(directors_database)
