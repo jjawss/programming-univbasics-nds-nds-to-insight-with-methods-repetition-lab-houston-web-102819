@@ -55,7 +55,7 @@ def total_gross(source)
   #while i < list_of_directors[source]
     #total += [list_of_directors](source)[i]directors_totals(source)
     #i += 1
-  end
+  #end
 end
 
 
